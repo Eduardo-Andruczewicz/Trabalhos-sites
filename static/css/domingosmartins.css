@@ -1,0 +1,33 @@
+body {
+    background-image: url(../img/fundotela.jpg); 
+    background-repeat: no-repeat;   
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.portal{
+    width: 300px;
+    float: right;
+    border-radius: 100%;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid rgb(196, 192, 192);
+    margin-left: auto;
+    margin-right: auto
+    
+}
+
+.titulo-1{
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+@media screen and (min-width: 371px) {
+    header {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    }
+}

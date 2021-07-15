@@ -1,0 +1,44 @@
+.body {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    background-image: url(../img/fundotela.jpg); 
+    background-repeat: no-repeat;   
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a{
+    color: white;
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding: 6px 25px;
+    font-size: 19px;
+    color: #1a1919;
+    text-decoration: none;
+    border-radius: 100%;
+    background-color: rgb(170, 181, 184);
+
+}
+
+
+.links{
+    display: none;
+}
+
+.links:target{
+    display: block;
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+}
+
+@keyframes aparecer {
+    from {
+        transform: scale(0%);
+    }
+    to {
+        transform: scale(100%);
+    }
+}
